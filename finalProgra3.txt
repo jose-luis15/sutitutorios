@@ -1,0 +1,28 @@
+Instrucciones:
+- El examen es personal
+- Se puede usar internet
+- Una vez terminado, guardar su examen con su código de estudiante y enviar el archivo al correo ryali93@gmail.com (ejemplo: 17160099.ipynb)
+
+1. Preguntas (5 puntos)
+1.1 ¿Cuál es la diferencia entre indexación e identación?
+1.2 Mencione dos diferencias entre Python2 y Python3.
+1.3 Mencionar algunos formatos de datos espaciales.
+1.4 Explique con sus propias palabras 2 librerías para el manejo de datos espaciales.
+1.5 ¿Para qué nos puede servir Google Earth Engine?
+
+2. Manipulación de datos espaciales: (10 puntos)
+2.1 Leer el archivo de "bici_sanisidro.xlsx" y crear un DataFrame.
+
+GrupoA
+2.2 Hacer una consulta al DataFrame para extraer los estacionamientos que se encuentren en avenidas("Av.") y tengan "FIERRO" como material.
+2.3 Usando numpy o pandas ¿cuál es la capacidad total de los estacionamientos de la consulta anterior?
+
+GrupoB
+2.2 Hacer una consulta al DataFrame para extraer los estacionamientos que se encuentren en parques y tengan "FIERRO" como material que pertenezcan a los departamentos de Ucayali en el año 2011.
+2.3 Usando numpy o pandas ¿cuál es la capacidad total de los estacionamientos de la consulta anterior?
+
+2.4 Generar un GeoDataFrame para la consulta a partir de las coordenadas.
+2.5 Exportar la data creada a un archivo shapefile y visualizar los datos usando Folium.
+2.6 Agregar el departamento que te corresponde(LIMA) al mapa folium. (leer archivo departamentos.json) *Extra
+
+3. Explicar con tus propias palabras cada paso del ejercicio anterior. (5 puntos)
